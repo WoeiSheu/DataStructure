@@ -79,6 +79,8 @@ int main(int argc, char** argv) {
         cout << s.at(i) << ' ';
     }
     cout << endl;
+
+    return 0;
 }
 
 void quickSort(std::vector<int>& s, int left, int right) {
